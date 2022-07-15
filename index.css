@@ -1,0 +1,310 @@
+
+body{
+   max-width: 1300px;
+   padding-left: 250px;
+   font-family:Arial,sans-serif;
+    }
+ 
+    .navbar ul{ 
+       list-style: none;
+       background-size: -10%;
+       padding: 0; 
+       margin: 0;
+       text-align: right;  
+    }
+    
+    .logo{
+       display: flex;
+       position: relative;
+    }
+    .logo1{
+      font-size: 200%;
+      color: #00b390
+    }
+    .logo2{
+       font-size: 200%;
+       color: #747474;
+    }
+    .adem{
+     padding: 20px;
+       display: inline-block;
+       width: 500px;
+       height: 50px;
+       font-size: 20px;
+       color: #747474;
+    }
+    
+       li{
+            display: inline-block;
+             background: 80px;
+       }
+       li a:hover{
+         color: #00b390;
+       }
+       .firstdiv{
+          position: absolute;
+          left: 50%; 
+          transform: translate(-50%,-50%);
+          
+       }
+       .navbar a{
+          width: 10%;
+          text-decoration: none;
+          color: #747474;
+          display: block;
+          padding: 25px 20px;
+          text-transform: uppercase;
+          text-align: center;
+          font-size: 14px;
+          display: inline;
+       }
+       .font{
+          font-size: 25px;
+          letter-spacing: -.3px;
+          font-family: 'Open Sans', sans-serif;
+       }
+      
+    
+         .bodyheader{
+      margin-left: 15%   ;
+      color: #00b390;
+         }
+        
+        
+         .aziz {
+          display: flex;
+          justify-content: center;
+          letter-spacing: -.3px;
+          font-family: 'Open Sans', sans-serif;
+         }
+          
+      
+         
+         
+         
+      .cont {
+    
+          width: 320px;
+          height: 300px;
+          margin: 10px;
+         color: #ffff;
+          margin-top: 5% ;
+          border-radius: 10px;
+          padding: 32px  ;
+          flex-direction: column;
+      }
+      
+      .p {
+          background: #00ccb1;
+          height: 365px;
+          width: 331px;
+      }
+       
+      
+      
+      .d {
+          background: #3d83df;
+          height: 365px;
+          width: 331px;
+      }
+      
+      .c {
+          background: #1b2734;
+          height: 365px;
+          width: 330px;
+      }
+      .select{
+       background-color: #00ccb1;
+       border-color: #00ccb1;
+       text-decoration: underline;
+     font-size: 20px;
+      }
+    
+      .select2{
+       background-color: #3d83df ;
+       border-color: #3d83df;
+       text-decoration: underline;
+       font-size: 20px;
+      }
+      .select3{
+      background-color: #1b2734;
+      text-decoration: underline;
+      border-color: #1b2734;
+      font-size: 20px;
+      }
+      
+      .grid-container{
+       justify-content: end;
+       display: grid;
+       grid-template-columns: 40px  40px 40px 40px 40px 40px ;
+       grid-column-gap:50px ;
+       display: flex;
+      }
+      .grid-item1 {
+    position: relative;
+    display: flex;
+    color: #747474;
+       }
+       .kyoubi{
+          height: 30px;  
+       }
+       .grid-item2 {
+          position: relative;
+          display: flex;
+          color: #747474;
+       }
+       .grid-item3{
+          position: relative;
+          display: flex;
+          color: #747474;
+       }
+       
+       .colortext{
+        color: #00b390;
+       }
+       
+       .kyoubi1{
+        width: 134px;
+        height: 50px;
+       }
+       
+       
+       .texthover:hover{
+        color: #00b390;
+        }
+       .youssef{
+            width: 400px;
+            height: 400px;  
+    }
+    .hayder{
+      text-align: center;
+      font-family:sans-serif ;
+      letter-spacing: -.3px;
+    }
+    .dhia{
+      color: #00b390;
+   font-family: Arial, Helvetica, sans-serif;
+    }
+   .ahmed{
+      color: #747474;
+      line-height: 25px;
+      font-size: 16px;
+   }
+   .grid-container-places{
+      display: grid;
+      grid-template-columns: 311px 311px 311px  ;
+      grid-template-rows: 350px 350px 350px ;
+      grid-column-gap: 30px;
+      grid-row-gap: 10px;
+   }
+   .grid-container-places2{
+      display: grid;
+      grid-template-columns: 311px 311px 311px  ;
+      grid-template-rows: 350px 350px 350px ;
+      grid-column-gap: 30px;
+      grid-row-gap: 10px;
+   }
+   
+   .grid-container-places3{
+      display: grid;
+      grid-template-columns: 311px 311px ;
+      grid-template-rows: 350px 350px ;
+      grid-column-gap: 30px;
+      grid-row-gap: 10px;
+   }
+
+ .lea{
+   border-radius: 6px;
+ }
+ 
+ .flower{
+   border-radius: 5px;
+   background-color: #1662c6;
+   display: inline;
+   color: #ffff;
+   font-size: 15px ;
+   width: 20px;
+   letter-spacing: .04em;
+   background-size: 50px;
+ }
+ .flower:hover{
+   background-color: #0e3f7f;
+ }
+ .lea:hover{
+   box-shadow: 10px 10px 5px rgb(120, 114, 114);
+ }
+ .tick1{
+   width: 40px;
+   height: 40px;
+   align-items: center;
+ }
+ .part4{
+   background-color:#89ded2 ;
+   width: 1200px;
+   height: 700px;
+   border-radius: 20px;
+}
+
+
+ .azuz{
+   padding-right: 25px;
+   display: grid;
+   padding-top: 20px;
+   column-gap: 20px;
+   row-gap: 20px  ;
+   display: flex;
+   justify-content: end;
+   }
+   .xbox{
+      font-family: Arial, Helvetica, sans-serif;
+      float: left;
+      color: #064236;
+      margin-right: 90px;
+   }
+   
+
+ .senefer{  
+   padding-top: 100px;
+   height: 270px;
+   width: 248px;
+   padding-top: 10px;
+   line-height: 14px ;
+   background-color: #ffff;
+   border-radius: 10px;
+   text-align: center;
+ }
+ .azur{
+   padding-right: 25px;
+   display: grid;
+   padding-top: 20px;
+   column-gap: 20px;
+   row-gap: 20px  ;
+   display: flex;
+   justify-content: end;
+   }
+ 
+ .senefer:nth-child(odd) { 
+     margin-top: 30px;
+}
+.nintando{
+   color: #747474 ;
+   font-weight: 14px;
+   width: 500px;
+   font-size: 20px;
+}
+footer{
+text-align: center;
+}
+
+.seeopenningtext{
+    margin-left: 46%;
+   padding-top: 8px;
+   color: aliceblue;
+   background-color: #1662c6;
+   border-radius: 10px;
+   width: 100px;
+   height: 30px;
+}
+.seeopenningtext:hover{
+background-color: #4f86cd;
+}
